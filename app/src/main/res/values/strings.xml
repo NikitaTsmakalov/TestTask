@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <string name="characters_title">Star Wars Characters</string>
+    <string name="characters_search_label">Search characters...</string>
+    <string name="characters_empty">Данные не найдены</string>
+    <string name="last_updated_template">Последнее обновление: %1$s</string>
+    <string name="retry_action">Повторить</string>
+    <string name="characters_line_info">Height: %1$s cm, Mass: %2$s kg, Hair: %3$s, Eyes: %4$s</string>
+
+    <string name="banner_offline_cached">Оффлайн: показаны сохранённые данные</string>
+    <string name="banner_restored">Снова в сети. Обновите список, чтобы получить актуальные данные.</string>
+    <string name="banner_data_updated">Данные обновлены</string>
+    <string name="banner_refresh_failed_cached">Не удалось обновить данные. Показан кеш.</string>
+    <string name="banner_next_page_failed">Не удалось загрузить следующую страницу</string>
+
+    <string name="details_title_fallback">Character details</string>
+    <string name="details_back">Back</string>
+    <string name="details_empty">Данные не найдены</string>
+    <string name="details_section_basic">Basic Information</string>
+    <string name="details_label_birth_year">Birth Year</string>
+    <string name="details_label_height">Height</string>
+    <string name="details_label_mass">Mass</string>
+    <string name="details_label_gender">Gender</string>
+    <string name="details_section_species">Species</string>
+    <string name="details_section_homeworld">Homeworld</string>
+    <string name="details_section_films">Films</string>
+    <string name="details_no_species">No species information available</string>
+    <string name="details_no_homeworld">No homeworld information available</string>
+    <string name="details_no_films">No films information available</string>
+    <string name="details_height_value">%1$s cm</string>
+    <string name="details_mass_value">%1$s kg</string>
+    <string name="cd_character_portrait">Портрет: %1$s</string>
+    <string name="recent_character_fallback">Персонаж #%1$d</string>
+    <string name="recent_planet_fallback">Планета #%1$d</string>
+    <string name="recent_starship_fallback">Корабль #%1$d</string>
+    <string name="recent_empty">Нет недавних просмотров</string>
+
+    <string name="tab_characters">Characters</string>
+    <string name="tab_planets">Planets</string>
+    <string name="tab_starships">Starships</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_recent">Recent</string>
+
+    <string name="planets_title">Planets</string>
+    <string name="planets_search_label">Search planets...</string>
+    <string name="starships_title">Starships</string>
+    <string name="starships_search_label">Search starships...</string>
+    <string name="global_search_title">Global search</string>
+    <string name="global_search_field_label">Search in all sections</string>
+    <string name="cd_open_global_search">Open global search</string>
+
+    <string name="planets_empty">Данные не найдены</string>
+    <string name="starships_empty">Данные не найдены</string>
+
+    <string name="planet_details_title_fallback">Planet details</string>
+    <string name="starship_details_title_fallback">Starship details</string>
+    <string name="details_loading">Loading…</string>
+    <string name="details_back_generic">Back</string>
+
+    <string name="planet_section_basic">Basic Information</string>
+    <string name="planet_label_climate">Climate</string>
+    <string name="planet_label_terrain">Terrain</string>
+    <string name="planet_label_population">Population</string>
+    <string name="planet_label_diameter">Diameter</string>
+
+    <string name="starship_section_basic">Basic Information</string>
+    <string name="starship_label_model">Model</string>
+    <string name="starship_label_manufacturer">Manufacturer</string>
+    <string name="starship_label_cost">Cost in credits</string>
+    <string name="starship_label_length">Length</string>
+    <string name="starship_label_crew">Crew</string>
+    <string name="starship_label_passengers">Passengers</string>
+    <string name="starship_label_class">Class</string>
+
+    <string name="onboarding_page1_text">Узнай больше о своих любимых героях Звёздной саги</string>
+    <string name="onboarding_page2_text">Узнай больше о звёздных кораблях и планетах</string>
+    <string name="onboarding_page3_text">На какой стороне Силы ты?</string>
+    <string name="onboarding_continue">Продолжить</string>
+</resources>
