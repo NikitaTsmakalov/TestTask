@@ -8,7 +8,9 @@ Android-приложение на Kotlin для работы с публичны
 
 ## Скриншоты и демонстрации
 
-Статические кадры и ролики лежат в [`app/src/main/res/drawable/`](app/src/main/res/drawable/).
+Статические кадры и гивки лежат в [`app/src/main/res/drawable/`](app/src/main/res/drawable/).
+
+Для удобста просмотра фото и видео переходите на мой github: https://github.com/NikitaTsmakalov/TestTask
 
 Экран списка персонажей и экран деталей персонажа:
 
