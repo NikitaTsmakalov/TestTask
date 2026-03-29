@@ -10,13 +10,21 @@ Android-приложение на Kotlin для работы с публичны
 
 Статические кадры и ролики лежат в [`app/src/main/res/drawable/`](app/src/main/res/drawable/).
 
-Экран списка персонажей:
+Экран списка персонажей и экран деталей персонажа:
 
-![Список персонажей](app/src/main/res/drawable/screen1.jpg)
+<p align="center">
+  <img src="app/src/main/res/drawable/screen1.jpg" width="49%" alt="Список персонажей" />
+  <img src="app/src/main/res/drawable/screen2.jpg" width="49%" alt="Детали персонажа" />
+</p>
 
-Экран деталей персонажа:
+<p align="center">
+  <img src="app/src/main/res/drawable/info.gif" width="49%" alt="Экран персонажа (gif)" />
+  <img src="app/src/main/res/drawable/global_search.gif" width="49%" alt="Глобальный поиск (gif)" />
+</p>
 
-![Детали персонажа](app/src/main/res/drawable/screen2.jpg)
+<p align="center">
+  <img src="app/src/main/res/drawable/internet_connection_info.gif" width="49" alt="Офлайн и уведомления (gif)" />
+</p>
 
 ---
 
@@ -48,9 +56,9 @@ Android-приложение на Kotlin для работы с публичны
 
 ## Глобальный поиск и сортировка результатов
 
-SWAPI отдаёт результаты **по типу ресурса** отдельными запросами (`people`, `planets`, `starships` с параметром `search`). Сервис **не гарантирует** единую сквозную сортировку «лучший матч сверху» между персонажами, планетами и кораблями.
+SWAPI отдаёт результаты **по типу ресурса** отдельными запросами (`people`, `planets`, `starships` с параметром `search`). Сервис **не гарантирует** единую сквозную сортировку между персонажами, планетами и кораблями.
 
-Принятое решение ([`GlobalSearchViewModel.kt`](app/src/main/java/com/example/testtask/presentation/search/GlobalSearchViewModel.kt)):
+Как я это реализовал ([`GlobalSearchViewModel.kt`](app/src/main/java/com/example/testtask/presentation/search/GlobalSearchViewModel.kt)):
 
 1. После debounce (**400 ms**) запускаются **три параллельных** запроса через `async` в одном `coroutineScope`.
 2. Ответы преобразуются в обобщённый список [`GlobalSearchItem`](app/src/main/java/com/example/testtask/presentation/search/GlobalSearchUiState.kt) (тип сущности, `id`, заголовок для отображения).
